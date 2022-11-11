@@ -1,0 +1,40 @@
+ .album-content {
+    height: 184px;
+    background-color: #f5f5f5;
+    border: 1px solid #d3d3d3;
+    margin: 20px 0 37px;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    .arrow {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      margin-top: -20px;
+      background-position: -260px -75px;
+    }
+
+   
+
+    .arrow-right {
+      background-position: -300px -75px;
+    }
+
+    .album-inner {
+      width: 645px;
+      height: 150px;
+
+      .ant-carousel .slick-slide {
+        height: 150px;
+        overflow: hidden;
+      }
+
+      .page {
+         display: flex !important;
+         justify-content: space-between;
+         align-items: center;
+      }
+    }
+  }

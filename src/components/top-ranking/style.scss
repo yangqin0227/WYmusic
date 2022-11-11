@@ -1,0 +1,127 @@
+.top-ranking{
+    width: 230px;
+    background:url(../../assets/img/recommend-top-bg.png) no-repeat;
+    .top-header{
+        display: flex;
+
+        height: 100px;
+        margin: 20px 0 0 19px;
+        .image{
+            width: 80px;
+            height: 80px;
+            position: relative;          
+            img{
+                 width: 80px;
+                height: 80px;            
+            }
+        }
+        .info{
+            margin: 6px 0 0 10px ;
+            .title{
+                font-size: 14px;
+                color: #333;
+                font-weight: 700;
+            }
+            .button{
+                margin-top: 10px;
+                display: flex;
+                
+                .bofang {
+                    width: 22px;
+                    height: 22px;
+                    background-position:  -267px -205px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                .like{
+                    width: 22px;
+                    height: 22px;
+                    background-position:-300px -205px ;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .top-list{
+
+        .top-list-item{
+            display: flex;
+            height: 32px;
+            align-items: center;
+            &:nth-child(-n+3) .rank{
+                color: #c10d0c;
+            }
+            
+            .rank{
+                font-size: 16px;
+                width: 35px;
+                margin-left: 10px;
+                text-align: center;
+
+
+
+            }
+            .info{
+                display: flex;
+                width: 170px;
+                height: 17px;
+                justify-content: space-between;
+
+                .songsname{
+                    
+                    flex: 1;
+                    color: #000;
+    
+                }
+                .caozuo{
+                    display: flex;
+                    align-items: center;
+                    width: 76px;
+                    position: relative;
+                    display: none;
+                    .btn{
+                        width: 17px;
+                        height: 17px;
+                        margin-left: 8px;
+                        cursor: pointer;
+                    }
+                
+                    .play{
+                        background-position: -267px -268px;
+    
+    
+                    }
+                    .add{
+                        background-position: 0 -698px;
+                        top:2px
+    
+                    }
+                    .like{
+                        background-position: -297px -268px;
+    
+                    }
+    
+                }
+                
+
+            }
+            &:hover{
+                .caozuo{
+                    display: block;
+                }
+            }
+        }
+    }
+    .top-footer{
+        height: 32px;
+        display: flex;
+        align-items: center;
+        margin-right: 32px;
+        justify-content: flex-end;
+        a{
+            color: #000;
+        }
+       
+    }
+
+}

@@ -1,4 +1,4 @@
-import { combineReducers } from "redux";
+import { combineReducers } from "redux-immutable";
 
 // 将子文件的 reducer导入 并且重命名
 

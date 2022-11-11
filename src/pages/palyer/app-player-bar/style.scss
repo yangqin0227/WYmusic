@@ -1,0 +1,148 @@
+.player-bar{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 52px;
+    background-image: url("./../../../assets/img/playbar_sprite.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+    width: 100%;
+    .bar-wrapper{
+        width: 980px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btns{
+            display: flex;
+
+            margin-right: 37px;
+            height: 47px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 6px;
+           .prev{
+            width: 28px;
+            height: 28px;
+            background-position: 0 -130px;
+
+
+           }
+           .play{
+            width: 36px;
+            height: 36px;
+            background-position: 0 -204px;
+            margin: 0 8px ;
+
+
+           }
+           .next{
+            width: 28px;
+            height: 28px;
+            background-position: -80px -130px ;
+
+           }
+        }
+        .player-info{
+            display: flex;
+            width: 652px;
+            height: 52px;
+            padding-top: 6px;
+            align-items: center;
+            .image-wrapper{
+                margin: 0px 15px 0 0;
+                .image{
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 5px;
+                    img{
+                        width: 34px;
+                        height: 34px;
+                        border-radius: 5px;
+
+                    }
+                }
+
+            }
+            .song-wrapper{
+                height: 42px;
+
+                .song{
+                    .song-name{
+                        
+                        max-width: 300px;
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 28px;
+                        margin-top: 6px;
+                        padding-right: 10px;
+
+
+                    }
+                    .song-singer{
+                        color: #9b9b9b;
+                        
+                    }        
+                } 
+                .progress{
+                    
+                }             
+            }         
+        }
+        .play-icon1{
+            width: 87px;
+            margin-top: 12px;
+            .btn{
+                display:inline-block;
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+            }
+            .icon1{
+                background-position: -147px -248px;
+            }
+            .icon2{
+                background-position: -88px -163px;
+
+            }
+            .icon3{
+                background-position: -114px -163px;
+
+            }
+
+
+
+        }
+        .play-icon2{
+            width: 126px;
+            padding-left: 13px;
+            margin-top: 12px;
+            .btn{
+                display:inline-block;
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+            }
+
+            .icon4{
+                background-position: -2px -248px;
+            }
+            .icon5{
+                background-position: -3px -344px;
+            }
+            .icon6{
+                background-position: -42px -68px;
+            }
+
+
+
+        }
+        
+
+    }
+    
+
+
+}

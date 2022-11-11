@@ -1,0 +1,66 @@
+.banner-wrapper{
+    position: relative;
+    
+    
+    height: 270px;
+    margin: 0 auto;
+    .banner{
+        height: 270px;
+        background-color: red;
+        display: flex;
+        position: relative;
+        .banner-left{
+            width: 730px;
+            .banner-item{
+                overflow: hidden;
+                height: 270px;
+                .image{
+                    width: 100%;
+                }
+
+            }
+            .btn{
+                display: block;
+                position: absolute;
+                top: 50%;
+                margin-top: -31px;
+                width: 37px;
+                height: 63px;
+                text-indent: -9999px;
+                background-image: url("../../../../../../assets/img/banner_sprite.png");
+                background-color: transparent;
+                cursor: pointer;
+                &:hover{
+                    background-color: rgba(0,0,0,.1);
+                }
+            }
+            .left{
+                left: -68px;
+                background-position: 0 -360px;
+            }
+            .right{
+                right: -68px;
+                background-position: 0 -508px;
+            }
+
+        }
+        .banner-right{
+            width: 254px;
+            height: 270px;
+            background: url("../../../../../../assets/img/download.png");
+        }
+
+        .banner-contorl{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform:translateY(-50%);
+            
+        }
+
+
+    }
+
+
+}

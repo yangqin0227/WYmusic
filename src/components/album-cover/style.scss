@@ -1,0 +1,36 @@
+.album-cover{
+    width: 118px;
+    margin-top: 7px;
+    .album-image{
+        position: relative;
+        overflow: hidden;
+        
+        
+        margin-bottom: 7px;
+        img{
+        width: 100px;
+        height: 100px;
+        }
+        .cover{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;     
+            background-position: 0 -570px;
+
+        }
+
+    }
+   
+    .album-info{
+        font-size: 12px;
+        width: 90%;
+        overflow: hidden;
+        .name .artist{
+            line-height: 18px;
+        }
+
+
+    }
+}
